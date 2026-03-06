@@ -11,5 +11,14 @@
     ],
     "workspaceFolder": "/usr/src/app",
     "remoteUser": "vscode",
-    "forwardPorts": [4000] // Add port forwarding
+    "forwardPorts": [4000], // Add port forwarding
+    
+    "features": {
+    "ghcr.io/devcontainers/features/common-utils": {
+        "installZsh": true,
+        "installOhMyZsh": true,
+        "installOhMyZshConfig": true,
+        "configureZshAsDefaultShell": true
+    }
+}
 }
