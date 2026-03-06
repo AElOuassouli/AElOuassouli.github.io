@@ -8,14 +8,14 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "contrast" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Amine El Ouassouli" # Update this with your name or the name of your site
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "Amine El Ouassouli"
+description              : &description "Personal page of Amine El Ouassouli"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://aelouassouli.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/about" # the subpath of your site, e.g. "/blog"
 repository               : "aelouassouli/aelouassouli.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.jpg"
   name             : ""
   pronouns         : # example: "she/her"  
-  bio              : "Computer Scientist | Engineer  Ph.D"
+  bio              : "Computer Scientist | Engineer | Ph.D"
   location         : "Paris, France"
   employer         : # "Red Brick University"
   uri              : # URL
@@ -273,10 +273,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _projects
   - scope:
       path: ""
-      type: portfolio
+      type: projects
     values:
       layout: single
       author_profile: true
