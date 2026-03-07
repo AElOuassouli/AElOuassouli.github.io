@@ -11,11 +11,11 @@ locale                   : "en-US"
 site_theme               : "contrast" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Amine El Ouassouli" # Update this with your name or the name of your site
 title_separator          : "-"
-name                     : &name "Amine El Ouassouli"
+name                     : # &name "Amine El Ouassouli" # Update this with your name, this is used in the author profile and as a default for the site title if not set
 description              : &description "Personal page of Amine El Ouassouli"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://aelouassouli.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/home" # the subpath of your site, e.g. "/blog"
 repository               : "aelouassouli/aelouassouli.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -24,13 +24,13 @@ repository               : "aelouassouli/aelouassouli.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : ""
+  name             : "Amine El Ouassouli"
   pronouns         : # example: "she/her"  
   bio              : "Computer Scientist | Engineer | Ph.D"
   location         : "Paris, France"
   employer         : # "Red Brick University"
   uri              : # URL
-  email            : "a.elouassouli [at] example.org" 
+  email            : "a.elouassouli@gmail.com" 
 
   # Academic websites
   academia         : # URL
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : amine-el-ouassouli
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -90,6 +90,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  thesis:
+    title: 'Ph.D. Thesis'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

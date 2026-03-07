@@ -30,8 +30,13 @@
     padding: 0.5em 1em;
     font-family: $sans-serif-narrow;
 
+    @include breakpoint($large) {
+      padding-left: calc(#{span(2 of 12)} + 0.65em);
+    }
+
     @include breakpoint($x-large) {
       max-width: $x-large;
+      padding-left: calc(#{$sidebar-link-max-width} + 1.65em);
     }
 
     nav {
@@ -70,8 +75,8 @@
   color: var(--global-text-color);
   font-weight: 700;
   border-bottom: 2px solid var(--global-text-color);
-  pointer-events: none; /* Move this here */
-  cursor: default; /* Move this here too */
+  pointer-events: none;
+  cursor: default;
 }
 
 .masthead__menu-item.selected a:hover {
