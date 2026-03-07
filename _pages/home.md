@@ -5,6 +5,7 @@ author_profile: true
 redirect_from: 
   - /home/
   - /home.html
+hide_title: true
 ---
 
 # Hi, I am Amine El Ouassouli. 
@@ -21,7 +22,7 @@ Please, do not hesitate to reach out and/or connect.
 
 {% for post in site.posts limit:3 %}
 <div class="recent-post-row">
-  <span class="recent-post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+  <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
   <a href="{{ post.url }}">{{ post.title }}</a>
 </div>
 {% endfor %}

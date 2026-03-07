@@ -57,7 +57,6 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-family: $header-font-family;
-    font-size: revert;
   }
 
   h2 {
@@ -417,22 +416,5 @@
   display: flex;
   align-items: baseline;
   gap: 3em;
-  margin-bottom: 0.5em;
-
-  .recent-post-date {
-    flex-shrink: 0;
-    font-family: $sans-serif;
-    font-size: $type-size-6;
-    color: var(--global-text-color-light);
-  }
-
-  a {
-    font-family: $sans-serif;
-    font-size: $type-size-5;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
+  margin-bottom: 0.5em;  
 }

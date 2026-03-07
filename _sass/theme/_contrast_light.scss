@@ -2,12 +2,12 @@
    CONTRAST THEME - LIGHT VERSION
    ========================================================================== */
 /* Color codes used for the theme */
-$primary-color              : #b60000;
+$primary-color              : #003ab6;
 $dark-primary-color         : mix(#000, $primary-color, 40%);
 $darker-primary-color       : mix(#000, $primary-color, 60%);
 $light-primary-color        : mix(#fff, $primary-color, 50%);
 $lighter-primary-color      : mix(#fff, $primary-color, 90%);
-$background                 : #ffffff;
+$background                 : #fffefe;
 $background-light           : #fafafa;
 $background-lighter        : #ffffff;
 $text                      : #000000;
@@ -29,7 +29,7 @@ $success-color              : #008000;
 $warning-color              : #ff8800;
 
 /* Other basic settings for the template */
-$border-radius              : 4px;
+$border-radius              : px;
 $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $global-transition          : all 0.2s ease-in-out;
 $masthead-height            : 70px;
