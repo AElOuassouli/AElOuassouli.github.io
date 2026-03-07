@@ -33,4 +33,4 @@ video processing methods to build a real motion data set. Experiments showed tha
 more accurate results in comparison with existing approaches. Hence, ITLD enhances significantly the accuracy,
 performances and scalability of CTD-Miner. The encouraging results given by CTD-Miner on our real world
 motion data set suggests that it is possible to integrate insights given by real time video processing approaches in
-a knowledge discovery process opening interesting perspectives for monitoring smart environments.
+a knowledge discovery process opening interesting perspectives for monitoring smart environments. 
