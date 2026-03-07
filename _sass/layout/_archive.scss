@@ -25,6 +25,10 @@
       }
     }
   }
+
+  p, li {
+    font-size: $body-text-size;
+  }
 }
 
 .archive__subtitle {
@@ -59,11 +63,18 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: $body-text-size;
+  font-family: $global-font-family;
 
   & + p {
     text-indent: 0;
   }
+}
+
+.archive .page__date,
+.archive .page__meta {
+  font-size: $body-text-size;
+  font-family: $global-font-family;
 }
 
 .archive__item-teaser {
