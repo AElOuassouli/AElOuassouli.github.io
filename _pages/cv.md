@@ -18,11 +18,14 @@ Education
 
 Work experience
 ------
-WIP
+* Data Scientist - R&D, Dillygence, 2022 - present
+* Ph.D Researcher, INSA Lyon (LIRIS Laboratory), Université de Lyon, 2017 - 2020
+* Teaching assistant, INSA Lyon, 2018
+* Software Engineer, Researcher, Foxstream, 2016 - 2020
+* Researcher, Foxstream, 2016 (Internship, Masters thesis project)
+* Software Engineer, Anyfetch (now, polite.io), 2015 (Internship)
+* Software Engineer, LIRIS Laboratory, INSA Lyon, 2014 (Internship)  
   
-Skills
-======
-WIP
 
 Publications
 ----
@@ -30,11 +33,6 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-----
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
+
 
 
