@@ -1,0 +1,63 @@
+---
+layout: single
+title: "Gallery"
+permalink: /gallery/
+author_profile: true
+gallery_travel:
+  - image_path: profile.jpg
+    alt: "Paris"
+    title: "Paris, 2024"
+  - image_path: profile.jpg
+    alt: "Tokyo"
+    title: "Tokyo, 2023"
+  - image_path: profile.jpg
+    alt: "New York"
+    title: "New York, 2022"
+---
+
+{% include base_path %}
+
+<div class="gallery-page">
+
+  <!-- Add gallery sections below. Each section has a title and a list of images.
+       Place your photos in the /images/ folder and reference them by filename.
+       
+       Each image entry supports:
+         image_path: filename in /images/ (required)
+         alt:        alt text for accessibility
+         title:      caption shown on hover
+         url:        optional link when clicking the image
+  -->
+
+  <!-- Example section – remove or replace with your own photos -->
+  <h2>Travel</h2>
+  {% include gallery id="gallery_travel" %}
+
+  <h2>Events</h2>
+  {% include gallery id="gallery_events" %}
+
+</div>
+
+<!--
+  Define your gallery images in the front matter above.
+  Example:
+
+  gallery_travel:
+    - image_path: photo1.jpg
+      alt: "Paris"
+      title: "Paris, 2024"
+    - image_path: photo2.jpg
+      alt: "Tokyo"
+      title: "Tokyo, 2023"
+    - image_path: photo3.jpg
+      alt: "New York"
+      title: "New York, 2022"
+
+  gallery_events:
+    - image_path: event1.jpg
+      alt: "Conference"
+      title: "VLDB 2023"
+    - image_path: event2.jpg
+      alt: "Workshop"
+      title: "Workshop, 2023"
+-->

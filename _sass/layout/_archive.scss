@@ -243,3 +243,74 @@
     }
   }
 }
+
+/* ==========================================================================
+   READING LIST
+   ========================================================================== */
+
+.reading__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2em 0;
+
+  li + li {
+    border-top: 1px solid var(--global-border-color);
+  }
+}
+
+.reading__item {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0 0.4em;
+  padding: 0.35em 0;
+  font-size: $type-size-6;
+}
+
+.reading__title {
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.reading__meta {
+  color: var(--global-text-color-light);
+  font-size: $type-size-6;
+  white-space: nowrap;
+}
+
+.reading__tags {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.25em;
+  margin-left: 0.2em;
+}
+
+.reading__rating {
+  white-space: nowrap;
+  color: #f0a500;
+  font-size: $type-size-7;
+
+  .far.fa-star {
+    opacity: 0.3;
+  }
+}
+
+.reading__tag {
+  display: inline-block;
+  font-size: $type-size-8;
+  padding: 0.1em 0.5em;
+  border-radius: 2em;
+  border: 1px solid var(--global-border-color);
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+}
+
+// Category badge colours
+.reading__tag--cat {
+  font-weight: 600;
+  border-color: transparent;
+  color: #fff;
+}
+.reading__tag--technical-books { background-color: #2980b9; }
+.reading__tag--articles        { background-color: #27ae60; }
+.reading__tag--other-books     { background-color: #8e44ad; }

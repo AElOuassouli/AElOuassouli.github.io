@@ -8,8 +8,9 @@ redirect_from:
   - /resume/
 ---
 
-You can find my detailed CV [here](https://aelouassouli.github.io/files/cv.pdf).
-
+Resume
+======
+You can find my detailed CV <a href="{{ base_path }}/files/cv.pdf">here</a>.
 
 Education
 -----
@@ -26,7 +27,7 @@ Work experience
 * Researcher, Foxstream, 2016 (Internship, Masters thesis project)
 * Software Engineer, Anyfetch (now, polite.io), 2015 (Internship)
 * Software Engineer, LIRIS Laboratory, INSA Lyon, 2014 (Internship)  
-  
+
 
 Publications
 ----

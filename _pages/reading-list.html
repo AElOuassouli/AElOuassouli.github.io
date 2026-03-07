@@ -1,0 +1,44 @@
+---
+layout: archive
+title: "Reading List"
+permalink: /reading/
+author_profile: true
+categories:
+  - label: "Technical Books"
+    key: "technical-books"
+  - label: "Articles"
+    key: "articles"
+  - label: "Other Books"
+    key: "other-books"
+---
+
+{% include base_path %}
+
+<p>Books and papers I have read and found interesting.</p>
+
+{% assign categories = "technical-books,articles,other-books" | split: "," %}
+{% assign category_labels = "Technical Books,Articles,Other Books" | split: "," %}
+
+{% for i in (0..2) %}
+  {% assign cat_key = categories[i] %}
+  {% assign cat_label = category_labels[i] %}
+  {% assign cat_posts = site.reading | where: "category", cat_key | sort: "date" | reverse %}
+  {% if cat_posts.size > 0 %}
+<h2>{{ cat_label }}</h2>
+<ul class="reading__list">
+  {% for post in cat_posts %}
+    {% include reading-list-single.html %}
+  {% endfor %}
+</ul>
+  {% endif %}
+{% endfor %}
+
+{% assign uncategorized = site.reading | where_exp: "item", "item.category == nil" %}
+{% if uncategorized.size > 0 %}
+<h2>Other</h2>
+<ul class="reading__list">
+  {% for post in uncategorized %}
+    {% include reading-list-single.html %}
+  {% endfor %}
+</ul>
+{% endif %}

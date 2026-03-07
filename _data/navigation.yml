@@ -11,18 +11,24 @@ main:
   - title: "Home"
     url: /
   
+  #- title: "Projects"
+  #  url: /projects/
   
-  - title: "Projects"
-    url: /projects/
-  
-  - title: "Blog Posts"
-    url: /year-archive/
+  #- title: "Posts"
+  #  url: /year-archive/
   
   - title: "Publications"
     url: /publications/
-
+  
   - title: "Resume"
     url: /resume/
+  
+  #- title: "Reading List"
+  #  url: /reading/
+
+  #- title: "Gallery"
+  #  url: /gallery/
+
   
   #- title: "Talks"
   #  url: /talks/    

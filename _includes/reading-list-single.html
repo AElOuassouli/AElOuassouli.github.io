@@ -1,0 +1,20 @@
+{% include base_path %}
+<li class="reading__item">
+  <a href="{{ base_path }}{{ post.url }}" class="reading__title">{{ post.title }}</a>
+  <span class="reading__meta">
+    {% if post.author %}{{ post.author }}{% endif %}
+    {% if post.date %}&nbsp;&middot;&nbsp;{{ post.date | date: "%Y" }}{% endif %}
+  </span>
+  {% if post.rating %}
+  <span class="reading__rating" aria-label="Rating: {{ post.rating }} out of 5">
+    {% assign full        = post.rating | floor %}
+    {% assign empty_stars = 5 | minus: full %}
+    {% for i in (1..full)        %}<i class="fas fa-star"></i>{% endfor %}
+    {% for i in (1..empty_stars) %}<i class="far fa-star"></i>{% endfor %}
+  </span>
+  {% endif %}
+  <span class="reading__tags">
+    {% if post.category %}<span class="reading__tag reading__tag--cat reading__tag--{{ post.category }}">{% if post.category == 'technical-books' %}Technical Book{% elsif post.category == 'articles' %}Article{% elsif post.category == 'other-books' %}Book{% else %}{{ post.category }}{% endif %}</span>{% endif %}
+    {% for tag in post.tags %}<span class="reading__tag">{{ tag }}</span>{% endfor %}
+  </span>
+</li>
