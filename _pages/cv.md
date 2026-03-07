@@ -8,7 +8,8 @@ redirect_from:
   - /resume/
 ---
 
-{% include base_path %}
+You can find my detailed CV [here](https://aelouassouli.github.io/files/cv.pdf).
+
 
 Education
 -----
