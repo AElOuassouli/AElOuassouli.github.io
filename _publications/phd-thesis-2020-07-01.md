@@ -6,8 +6,8 @@ permalink: /publication/phd-thesis/
 excerpt: ''
 date: 2020-07-24
 venue: "Université de Lyon, INSA Lyon"
-slidesurl: "https://aelouassouli.github.io/files/slides_phd_thesis.pdf"
-paperurl: 'https://aelouassouli.github.io/files/phd_thesis.pdf'
+slidesurl: "https://aelouassouli.github.io/files/slides-phd-thesis.pdf"
+paperurl: 'https://aelouassouli.github.io/files/phd-thesis.pdf'
 citation: "Amine El Ouassouli. Discovering complex quantitative dependencies between interval-based state streams. Artificial Intelligence [cs.AI]. Université de Lyon, 2020. English."
 ---
 
