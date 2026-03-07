@@ -253,7 +253,7 @@ defaults:
       comments: true
       share: true
       related: true
-      hide_title: true
+      hide_title: False
   # _pages
   - scope:
       path: ""
@@ -261,7 +261,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      hide_title: true
+      hide_title: False
   # _teaching
   - scope:
       path: ""
@@ -271,7 +271,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-      hide_title: true
+      hide_title: False
   # _publications
   - scope:
       path: ""
@@ -281,7 +281,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-      hide_title: true
+      hide_title: False
   # _projects
   - scope:
       path: ""
@@ -291,7 +291,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
-      hide_title: true
+      hide_title: False
   # _talks
   - scope:
       path: ""
@@ -300,7 +300,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-      hide_title: true
+      hide_title: False
   # _reading
   - scope:
       path: ""
@@ -309,7 +309,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      hide_title: true
+      hide_title: False
 
 
 # Sass/SCSS

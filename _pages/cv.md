@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
   - /resume/
-hide_title: False
+hide_title: false
 ---
 
 You can find my detailed CV <a href="{{ base_path }}/files/cv.pdf">here</a>.

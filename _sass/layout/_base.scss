@@ -132,6 +132,17 @@ a {
     color: var(--global-text-color-light);
   }
 
+.post-title-link {
+    color: var(--global-text-color);
+    font-size: $type-size-5;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: $header-font-family;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 
 /* code */
 

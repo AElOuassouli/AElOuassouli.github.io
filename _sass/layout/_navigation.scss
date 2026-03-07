@@ -213,9 +213,9 @@
     li {
       display: flex;
       align-items: center;
+      font-weight: 700;
 
       &:first-child {
-        font-weight: bold;
         text-wrap: wrap;
 
         a {
@@ -246,15 +246,19 @@
         content: "";
         position: absolute;
         left: 0;
-        bottom: 0;
-        height: 4px;
-        background: var(--global-border-color);
+        bottom: 0.35rem;
+        height: 2px;
+        background: var(--global-text-color);
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
         -webkit-transform: scaleX(0);
             -ms-transform: scaleX(0);
                 transform: scaleX(0); /* hide*/
+      }
+
+      &:hover {
+        color: var(--global-masthead-link-color);
       }
 
       &:hover:before {
