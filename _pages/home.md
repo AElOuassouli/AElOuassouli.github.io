@@ -13,7 +13,7 @@ hide_title: true
 ## Site under construction ⚒️ 🚧
 
 
-You can find find my resume [here]({{ base_path }}/cv/). 
+You can find my resume [here]({{ base_path }}/cv/). 
 
 Please, do not hesitate to reach out by email and/or connect on the usual plateforms 🙏
 
